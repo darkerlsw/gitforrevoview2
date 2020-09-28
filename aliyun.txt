@@ -1,0 +1,26 @@
+{
+  "ProductKey": "a1ATeqnNydg",
+  "DeviceName": "lswdemo",
+  "DeviceSecret": "ec14aede4a599952d949b888f3a44990"
+}
+
+/sys/a1ATeqnNydg/${deviceName}/thing/event/property/post发布
+即：/sys/a1ATeqnNydg/lswdemo/thing/event/property/post
+/sys/a1ATeqnNydg/${deviceName}/thing/service/property/set订阅
+即：/sys/a1ATeqnNydg/lswdemo/thing/service/property/set
+
+mqttusername:lswdemo&a1ATeqnNydg
+mqttpassword:
+密码计算网址
+https://1024tools.com/hmac
+消息：clientId123456deviceNamelswdemoproductKeya1ATeqnNydgtimestamp789
+算法：sha1
+密匙：ec14aede4a599952d949b888f3a44990
+密码：e7ab4963344bc259e91162f13b626cb2902bb2d6
+
+MQTT.fx创建列表
+broker address :a1ATeqnNydg.iot-as-mqtt.cn-shanghai.aliyuncs.com
+broker port: 1883
+client ID：123456|securemode=3,signmethod=hmacsha1,timestamp=789|
+
+productkey : RPwS7OE063xO9xGz
