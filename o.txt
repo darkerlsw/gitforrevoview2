@@ -78,3 +78,9 @@ https://unsplash.com/
 
 运行过程中程序中的变量存储在哪？
 https://www.zhihu.com/question/57509496
+
+Linux查找某个目录下包含某个字段的文件
+https://blog.csdn.net/u011517841/article/details/80430846
+
+Linux中dd命令详解
+https://blog.csdn.net/xizaihui/article/details/53307578
