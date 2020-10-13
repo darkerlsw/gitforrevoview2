@@ -84,3 +84,11 @@ https://blog.csdn.net/u011517841/article/details/80430846
 
 Linux中dd命令详解
 https://blog.csdn.net/xizaihui/article/details/53307578
+
+Linux下gcc命令详解
+https://blog.csdn.net/ENSHADOWER/article/details/82951131
+
+linux中的tree命令出现中文乱码解决方案
+永久生效 编辑.bashrc文件，加入下面的这句话
+alias tree='tree --charset ASCII'
+
