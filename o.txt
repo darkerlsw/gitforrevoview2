@@ -92,3 +92,18 @@ linux中的tree命令出现中文乱码解决方案
 永久生效 编辑.bashrc文件，加入下面的这句话
 alias tree='tree --charset ASCII'
 
+C语言中的底层IO流
+http://www.mamicode.com/info-detail-3047296.html
+
+windows api大全
+http://www.esk365.com/zxsc/prg/winapia/
+
+C语言fopen函数的用法，C语言打开文件详解
+http://c.biancheng.net/view/2054.html
+
+apue源码下载
+https://www.cnblogs.com/wjgaas/p/5220048.html
+http://www.apuebook.com/
+
+unix高级环境编程编译错误 undefined reference to `err_sys error: ld returned 1 exit status
+https://blog.csdn.net/qq_44226094/article/details/105316771
