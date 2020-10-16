@@ -107,3 +107,20 @@ http://www.apuebook.com/
 
 unix高级环境编程编译错误 undefined reference to `err_sys error: ld returned 1 exit status
 https://blog.csdn.net/qq_44226094/article/details/105316771
+
+open函数中第三个参数,其中S_IRUSR|S_IWUSR是什么意思？
+
+S_IRUSR
+ Permits the file's owner to read it.允许文件的所有者读取它。
+
+S_IWUSR
+ Permits the file's owner to write to it.允许文件的所有者写它。
+
+S_IRGRP
+ Permits the file's group to read it.允许文件的组读取它。
+
+S_IWGRP
+ Permits the file's group to write to it.允许文件的组对其进行写入。
+
+linux c——dup( )和dup2( )函数详解
+https://blog.csdn.net/tiandc/article/details/81489447
