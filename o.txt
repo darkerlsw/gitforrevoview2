@@ -31,6 +31,7 @@ https://www.cnblogs.com/zhiminzeng/p/13060042.html
 
 linuxC
 http://docs.linuxtone.org/ebooks/C&CPP/c/
+http://net.pku.edu.cn/~yhf/linux_c/
 
 Linux下学习用C语言实现MQTT
 https://blog.csdn.net/qq_43260665/article/details/88370100?utm_medium=distribute.pc_relevant.none-task-blog-title-3&spm=1001.2101.3001.4242
@@ -124,3 +125,15 @@ S_IWGRP
 
 linux c——dup( )和dup2( )函数详解
 https://blog.csdn.net/tiandc/article/details/81489447
+
+僵尸进程和孤儿进程
+https://www.cnblogs.com/Anker/p/3271773.html
+
+详解wait和waitpid函数
+https://blog.csdn.net/kevinhg/article/details/7001719
+
+linux的 0号进程 和 1 号进程
+https://blog.csdn.net/com_ma/article/details/78701376
+
+linux下的信号屏蔽字
+https://www.cnblogs.com/caolicangzhu/p/7090152.html
