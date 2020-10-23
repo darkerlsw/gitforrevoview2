@@ -137,3 +137,10 @@ https://blog.csdn.net/com_ma/article/details/78701376
 
 linux下的信号屏蔽字
 https://www.cnblogs.com/caolicangzhu/p/7090152.html
+
+linux中pthread_join()与pthread_detach()详解
+https://blog.csdn.net/weibo1230123/article/details/81410241
+
+linux调度器
+https://blog.csdn.net/weixin_42092278/article/details/89187728
+https://blog.csdn.net/weixin_42092278/article/details/88778435
