@@ -144,3 +144,9 @@ https://blog.csdn.net/weibo1230123/article/details/81410241
 linux调度器
 https://blog.csdn.net/weixin_42092278/article/details/89187728
 https://blog.csdn.net/weixin_42092278/article/details/88778435
+
+C语言结构体中的冒号用法 位域
+https://blog.csdn.net/qingzhuyuxian/article/details/80619712
+
+深入了解PLMN相关协议，建议阅读23.122协议
+https://www.3gpp.org/ftp/Specs/latest/Rel-16/23_series/
