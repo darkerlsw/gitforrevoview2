@@ -150,3 +150,12 @@ https://blog.csdn.net/qingzhuyuxian/article/details/80619712
 
 深入了解PLMN相关协议，建议阅读23.122协议
 https://www.3gpp.org/ftp/Specs/latest/Rel-16/23_series/
+
+FreeRTOS基础篇教程目录汇总
+https://www.cnblogs.com/yangguang-it/p/7233591.html
+
+C语言#pragma使用方法
+https://blog.csdn.net/liuchunjie11/article/details/80502529
+
+C语言中宏定义的使用
+https://blog.csdn.net/imgosty/article/details/81901183
