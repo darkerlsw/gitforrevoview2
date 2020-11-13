@@ -147,6 +147,7 @@ https://blog.csdn.net/weixin_42092278/article/details/88778435
 
 C语言结构体中的冒号用法 位域
 https://blog.csdn.net/qingzhuyuxian/article/details/80619712
+https://www.cnblogs.com/balingybj/p/4780358.html
 
 深入了解PLMN相关协议，建议阅读23.122协议
 https://www.3gpp.org/ftp/Specs/latest/Rel-16/23_series/
@@ -162,3 +163,6 @@ https://blog.csdn.net/imgosty/article/details/81901183
 
 AP与CP介绍
 https://blog.csdn.net/wqlinf/article/details/8663170
+
+Android.mk 文件语法详解
+https://www.cnblogs.com/wainiwann/p/3837936.html
