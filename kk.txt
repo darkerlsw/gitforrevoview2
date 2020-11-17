@@ -1,0 +1,481 @@
+    1  git clone https://github.com/ZaneLove/GestureDetector.git
+    2  rm -rf pythonResource/
+    3  rm -rf zidonghuaceshi/
+    4  rm -rf s716v_0811/ 数联FOTA20170418最新包/
+    5  rm -rf APK/ APK.zip  apns-conf-2.xml  png_600x1024/ 开机带Android.png 
+    6  grep -rw -i "start proc" ./
+    7  grep -rw -i "start proc" ./
+    8   PowerHAL
+    9  grep -rw -i "com.ssui.keyguard" ./
+   10  grep -r -i "Start proc" ./
+   11  grep -r -i "Start proc" ./
+   12  grep -r -i "com.android.systemui" ./
+   13  grep -rw -i "com.android.systemui" ./
+   14  grep -rw -i "com.android.keyguard" ./
+   15  grep -rw -i "com.android.systemui" ./
+   16  grep -rw -i "AndroidRuntimeException" ./
+   17  grep -r -i "AndroidRuntimeException" ./
+   18  grep -r -i "AndroidRuntime" ./
+   19  grep -rw -i "boot_completed" ./
+   20   grep -in PowerHAL main.log 
+   21  cd ap/logbuffer/buffdump_20190102-133822/
+   22   grep -in PowerHAL main.log 
+   23   grep -in PowerHAL main.log 
+   24  clear
+   25  grep -r "Exception" ./
+   26  grep -r "copy default wallpaper thumbnail is done" ./
+   27  rm -rf 展讯自动化学习/
+   28  grep -r -i "toast" timerpower/
+   29  clear
+   30  grep -r -i "toast" timerpower/
+   31  grep -r "AAPT" ./
+   32  adb root
+   33  adb remount
+   34  adb push out/target/product/s9863a1h10/system/priv-app/SystemUI/SystemUI.apk system/priv-app/SystemUI/
+   35  adb push out/target/product/s9863a1h10/system/priv-app/SystemUI/oat/arm64/SystemUI.odex system/priv-app/SystemUI/oat/arm64/
+   36  adb push out/target/product/s9863a1h10/system/priv-app/SystemUI/oat/arm64/SystemUI.vdex system/priv-app/SystemUI/oat/arm64/
+   37  adb reboot
+   38  start .
+   39  adb root
+   40  adb remount
+   41  adb push out/target/product/s9863a1h10/system/priv-app/SystemUI/SystemUI.apk system/priv-app/SystemUI/
+   42  adb push out/target/product/s9863a1h10/system/priv-app/SystemUI/oat/arm64/SystemUI.odex system/priv-app/SystemUI/oat/arm64/
+   43  adb push out/target/product/s9863a1h10/system/priv-app/SystemUI/oat/arm64/SystemUI.vdex system/priv-app/SystemUI/oat/arm64/
+   44  adb reboot
+   45  adb push out/target/product/s9863a1h10/system/app/SprdCalendar/SprdCalendar.apk system/app/SprdCalendar/
+   46  adb root
+   47  adb remount
+   48  adb push out/target/product/s9863a1h10/system/app/SprdCalendar/SprdCalendar.apk system/app/SprdCalendar/
+   49  adb push out/target/product/s9863a1h10/system/app/SprdCalendar/oat/arm64/SprdCalendar.odex system/app/SprdCalendar/oat/arm64/
+   50  adb push out/target/product/s9863a1h10/system/app/SprdCalendar/oat/arm64/SprdCalendar.vdex system/app/SprdCalendar/oat/arm64/
+   51  adb root
+   52  adb remount
+   53  adb push out/target/product/s9863a1h10/system/app/SprdCalendar/SprdCalendar.apk system/app/SprdCalendar/
+   54  adb push out/target/product/s9863a1h10/system/priv-app/SystemUI/SystemUI.apk system/priv-app/SystemUI/
+   55  adb push out/target/product/s9863a1h10/system/priv-app/SystemUI/oat/arm64/SystemUI.odex system/priv-app/SystemUI/oat/arm64/
+   56  adb push out/target/product/s9863a1h10/system/priv-app/SystemUI/oat/arm64/SystemUI.vdex system/priv-app/SystemUI/oat/arm64/
+   57  adb reboot
+   58  adb push out/target/product/s9863a1h10/system/app/SprdCalendar/SprdCalendar.apk system/app/SprdCalendar/
+   59  adb root
+   60  adb remount
+   61  adb push out/target/product/s9863a1h10/system/app/SprdCalendar/SprdCalendar.apk system/app/SprdCalendar/
+   62  adb push out/target/product/s9863a1h10/system/app/SprdCalendar/oat/arm64/SprdCalendar.odex system/app/SprdCalendar/oat/arm64/
+   63  adb push out/target/product/s9863a1h10/system/app/SprdCalendar/oat/arm64/SprdCalendar.vdex system/app/SprdCalendar/oat/arm64/
+   64  adb root
+   65  adb remount
+   66  adb push out/target/product/s9863a1h10/system/priv-app/SystemUI/SystemUI.apk system/priv-app/SystemUI/
+   67  adb push out/target/product/s9863a1h10/system/priv-app/SystemUI/oat/arm64/SystemUI.odex system/priv-app/SystemUI/oat/arm64/
+   68  adb push out/target/product/s9863a1h10/system/priv-app/SystemUI/oat/arm64/SystemUI.vdex system/priv-app/SystemUI/oat/arm64/
+   69  adb reboot
+   70  ls
+   71  git
+   72  ssh -keygen -t rsa
+   73  ssh-keygen -t rsa
+   74  cd 
+   75  ls
+   76  vim .ssh/id_rsa.pub 
+   77  ls
+   78  cd e:
+   79  ls
+   80  vim .ssh/id_rsa.pub 
+   81  ls .ssh
+   82  ls .ssh/*
+   83  vim .ssh/id_rsa.pub 
+   84  pwd
+   85  cd lsw
+   86  pwd
+   87  cd code
+   88  vim .ssh/id_rsa.pub 
+   89  cat .ssh/id_rsa.pub 
+   90  cd ..
+   91  cat .ssh/id_rsa.pub 
+   92  java
+   93  java --version
+   94  pwd
+   95  cd
+   96  ls
+   97  vim .ssh/id_rsa.pub 
+   98  ssh-keygen -t rsa -C "darkerlsw@gmail.com"
+   99  ssh-keygen -t rsa -C "darkerlsw@gmail.com"
+  100  vim /c/Users/Administrator/.ssh/id_rsa.pub
+  101  pwd
+  102  cd
+  103  pwd
+  104  cd ~
+  105  pwd
+  106  cd e/lsw
+  107  cd /e/lsw
+  108  cd code
+  109  pwd
+  110  git clone http://codereviewmisc/mocor_sc6531e
+  111  git remote -v
+  112  git clone http://192.168.0.9/mocor_sc6531e
+  113  git clone ssh://liushuangwu@codereviewmisc:29418/mocor_sc6531e
+  114  vim ~/.ssh/id_rsa.pub
+  115  git clone ssh://liushuangwu@codereviewmisc:29418/mocor_sc6531e
+  116  exit
+  117  cd
+  118  pw
+  119  pwd
+  120  cd e:\\lsw\\gui
+  121  cd e:\\lsw\\gui\
+  122  cd \e:\\lsw\\gui\
+  123  cd e
+  124  cd /e
+  125  pwd
+  126  cd lsw
+  127  cd gui
+  128  pwd
+  129  cd /code/gui
+  130  cd code
+  131  cd gui
+  132  pwd
+  133  git init
+  134  git clone https://gitee.com/cuihongxi/CUIGUI.git
+  135  cd ..
+  136  cd ..
+  137  cd ..
+  138  pwd
+  139  cd ..
+  140  pwd
+  141  cd e/lsw/code/gui
+  142  pwd
+  143  exit
+  144  pwd
+  145  cd e/lsw/code
+  146  cd /e/lsw/code
+  147  ll
+  148  mkdir mqtt
+  149  cd mqtt/
+  150  pwd
+  151  git clone https://github.com/mcxiaoke/mqtt.git
+  152  ll
+  153  git remote -v
+  154  cd E:\lsw\code\mqtt\mqtt
+  155  pwd
+  156  cd mqtt
+  157  pwd
+  158  git remote -v
+  159  git remote add mqtt https://github.com/darkerlsw/mqqt.git
+  160  git remote -v
+  161  git push -u mqtt master
+  162  git remote add mqtt https://github.com/darkerlsw/learngit.git
+  163  git remote add mqtt https://github.com/darkerlsw/mqqt.git
+  164  git push -u mqtt master
+  165  git pull mqtt master
+  166  ll
+  167  pwd
+  168  cd  protocol/
+  169  ll
+  170  git add  MQTT-3.1.1-CN.pdf
+  171  git commit -m "2020/9/2 commit mqtt-ZN.pdf"
+  172  git remote -v
+  173  git init
+  174  git remote add origin https://github.com/darkerlsw/lsw.git
+  175  ll
+  176  pwd
+  177  git remote rm origin
+  178  pwd
+  179  cd code
+  180  pwd
+  181  git clone ssh://liushuangwu@codereviewmisc:29418/ZbarOpencvBuild
+  182  pwd
+  183  ll
+  184  git remote add origin https://github.com/darkerlsw/lsw.git
+  185  git add gui/
+  186  cd gui
+  187  ll
+  188  git add CUIGUI/
+  189  cd ..
+  190  pwd
+  191  git add mqtt/
+  192  git remote -v
+  193  git remote rm origin
+  194  git remote -v
+  195  pwd
+  196  cd ..
+  197  pwd
+  198  git remote add origin https://github.com/darkerlsw/copycode.git
+  199  ll
+  200  git add code/
+  201  git remote rm origin
+  202  cd code
+  203  pwd
+  204  git init
+  205  pwd
+  206  git add gui/
+  207  git add mqtt/
+  208  git remote -v
+  209  git remote add origin https://github.com/darkerlsw/copycode.git
+  210  git remote -v
+  211  pwd
+  212  git add gui/
+  213  git add mqtt/
+  214  git commit -m "commit mqtt"
+  215  git reomte -v
+  216  cd ..
+  217  git reomte -v
+  218  ll
+  219  cd coed
+  220  cd code
+  221  git reomte -v
+  222  git remote add origin https://github.com/darkerlsw/copycode.git
+  223  git remote -v
+  224  git add hui/
+  225  git add gui/
+  226  git add mqtt/
+  227  git commit -m "commit mqtt"
+  228  git remote -v
+  229  git remote rm origin 
+  230  pwd
+  231  gcc -o mqtt MQTTClient_publish.c
+  232  gcc MQTTClient_publish.c -o MQTTClient_publish.o
+  233  grep
+  234  grep test *file
+  235  grep -v test *file
+  236  grep -c test *file
+  237  grep -cv test *file
+  238  grep -vc test *file
+  239  grep :space: test *file
+  240  %: ${srcdir}/../test/%.c $(MQTTLIB_CS_TARGET)
+  241  ${ASYNC_SSL_TESTS}: ${blddir}/test/%: ${srcdir}/../test/%.c $(MQTTLIB_CS_TARGET) $(MQTTLIB_AS_TARGET)
+  242          @if test ! -f $(DESTDIR)${libdir}/lib$(MQTTLIB_C).so.${MAJOR_VERSION}; then ln -s lib$(MQTTLIB_C).so.${VERSION} $(DESTDIR)${libdir}/lib$(MQTTLIB_C).so.${MAJOR_VERSION}; fi
+  243          @if test ! -f $(DESTDIR)${libdi; ; ; :q!
+  244  ll 
+  245  cd src
+  246  ll
+  247  grep :space: Tree.c
+  248  grep :alpha: Tree.c
+  249  grep -i "tree" Tree.c
+  250  grep -i "tree" Tree.c --color=blue
+  251  grep -i "tree" Tree.c --color
+  252  grep [:alpha:] Tree.c
+  253  grep "tr[ecf]" Tree.c
+  254  grep "tr[a-z]" Tree.c
+  255  grep "tr[a-z]" Tree.c --color
+  256  grep "tr[a-z]e" Tree.c --color
+  257  grep "t^" Tree.c --color
+  258  grep "^t" Tree.c --color
+  259  grep "^tree" Tree.c --color
+  260  grep "tree^" Tree.c --color
+  261  grep "s^" Tree.c --color
+  262  grep "i" Tree.c --color
+  263  grep "i^" Tree.c --color
+  264  grep "6i" Tree.c --color
+  265  grep "……i" Tree.c --color
+  266  grep " "^" Tree.c --color
+  267  grep "sh$" Tree.c --color
+  268  grep "f$" Tree.c --color
+  269  grep "i^" Tree.c --color
+  270  grep "w^" Tree.c --color
+  271  touch mymqttpublish.c
+  272  touch mymqttsubscribe.c
+  273  ll
+  274  ls  -al
+  275  git add o.txt
+  276  git commit -m "2020/9/17 commit"
+  277  git push origin master
+  278  ll
+  279  git add o.txt
+  280  git commit -m "2020/9/17 second commit"
+  281  git push origin master
+  282  pwd
+  283  ll
+  284  git add aliyun.txt 
+  285  git add mqtt签名工具/
+  286  ll
+  287  git add mqttcreatepasswordtool/
+  288  git add mqttcreatepasswordtool/*
+  289  git commit -m "2020/9/18 commit"
+  290  git push origin master
+  291  pwd
+  292  ll
+  293  git add c-sdk-v3.2.0-6951f00dae9873c75a14049ec9e77eea4f3e38ea.zip 
+  294  git add JavaLinkKitDemo.zip 
+  295  git commit -m "2020/9/18 second commit"
+  296  git push origin master
+  297  git add o.txt
+  298  git commit -m "2020/9/18 3 commit"
+  299  git push origin master
+  300  pwd
+  301  git add aliyun.txt 
+  302  git commit -m "2020/9/18 second commit"
+  303  git push origin master
+  304  git add o.txt 
+  305  git commit -m "2020/9/27 commit"
+  306  git push origin master
+  307  ll
+  308  git add linux-5.8.10.tar.xz 
+  309  git add o.txt
+  310  git commit -m "2020/9/24 commit"
+  311  git push origin master
+  312  git add o.txt
+  313  git commit -m "2020/9/24 commit"
+  314  git add o.txt 
+  315  git commit -m "2020/9/25 commit"
+  316  git push origin master
+  317  ll
+  318  git rm --cached o.txt 
+  319  git rm --cached linux-5.8.10.tar.xz 
+  320  git add o.txt
+  321  git commit -m "2020/9/25 commit"
+  322  git push origin master
+  323  git push origin master
+  324  git rm --cached linux-5.8.10.tar.xz 
+  325  git rm --cached linux-5.8.10.tar.xz 
+  326  git rm --cached linux-5.8.10.tar.xz 
+  327  git rm --cached linux-5.8.10.tar.xz 
+  328  git rm --cached linux-5.8.10.tar.xz 
+  329  git rm --cached linux-5.8.10.tar.xz 
+  330  git rm --cached o.txt
+  331  git add o.txt
+  332  git commit -m "2020/9/25 commit"
+  333  git push origin master
+  334  git push -f origin master
+  335  git rm --cached giant_file
+  336  Git config http.postBuffer 524288000
+  337  git push -f origin master
+  338  git filter-branch -f –index-filter “git rm -rf –cached –ignore-unmatch FOLDERNAME” – –all
+  339  git push -f origin master
+  340  git init
+  341  git remote add origin https://github.com/darkerlsw/gitforrevoview2.git
+  342  pwd
+  343  git add mqttcreatepasswordtool/
+  344  git add README.md
+  345  git add mqttcreatepasswordtool/
+  346  git add aliyun.txt 
+  347  git add c-sdk-v3.2.0-6951f00dae9873c75a14049ec9e77eea4f3e38ea.zip 
+  348  git add JavaLinkKitDemo.zip 
+  349  git add mqtt_publish.c 
+  350  git add mqtt_subscribe.c 
+  351  git add o.txt 
+  352  git commit -m "2020/9/28 commit"
+  353  git push -u origin master
+  354  11
+  355  ll
+  356  git add o.txt
+  357  git commit -m "2020/9/30 commit"
+  358  git push origin master
+  359  git add ping命令详解.txt 
+  360  git commit -m "2020/10/9 commit"
+  361  git push origin master
+  362  git add o.txt 
+  363  git add makefile.zip 
+  364  git commit -m "2020/10/13 commit"
+  365  git push origin master
+  366  ll
+  367  tree
+  368  sudo apt-get install tree
+  369  git add o.txt 
+  370  git add src.3e.tar.gz 
+  371  git add apue.h 
+  372  git add apue.h 
+  373  git commit -m "2020/10/14 commit"
+  374  git push origin master
+  375  git add o.txt
+  376  git add dup和dup2函数图解.png 
+  377  git commit -m "2020/10/16 commit"
+  378  git push origin master
+  379  ll
+  380  ls -lh
+  381  q
+  382  git add 进程屏蔽.c 
+  383  git commit -m "2020/10/21"
+  384  git push origin master
+  385  git add o.txt 
+  386  git commit -m "2020/10/21 commit"
+  387  git push origin master
+  388  git add o.txt 
+  389  git commit -m "2020/10/23 commit"
+  390  git push origin master
+  391  ll
+  392  vim
+  393  git clone ssh://liushuangwu@codereviewmisc:29418/UIS8910ff
+  394  ls
+  395  cd mocor_sc6531e/
+  396  git log 
+  397  git remote -v
+  398  cd ..
+  399  ls
+  400  git clone ssh://liushuangwu@codereviewmisc:29418/UIS8910ff
+  401  git remote -v
+  402  git add o.txt
+  403  git commit -m "2020/10/28 commit"
+  404  git push origin master
+  405  ll
+  406  git branch
+  407  git relog
+  408  git -relog
+  409  git log
+  410  fg
+  411  gigg
+  412  ll
+  413  git add LeetCode/
+  414  git commit -m "2020/10/29 commit"
+  415  git push origin master
+  416  git add o.txt
+  417  git commit -m "2020/10/29 commit"
+  418  git push origin master
+  419  git add o.txt 
+  420  git commit -m "2020/11/9 commit"
+  421  git push origin master
+  422  ll
+  423  git add C语言数据类型所占位数.png 
+  424  git commit -m "2020/11/10"
+  425  git push origin master
+  426  git clone ssh://liushuangwu@codereviewmisc:29418/UIS8910ff
+  427  git log
+  428  git clone ssh://liushuangwu@codereviewmisc:29418/UIS8910ff
+  429  git status
+  430  git log
+  431  grep revo_example_init MS_Ref/ -rn
+  432  vim MS_Ref/source/base/src/init.c +1595
+  433  git add o.txt
+  434  git add lswtest/
+  435  git add thread_test/
+  436  git commit -m "2020/11/13 commit"
+  437  git push origin master
+  438  grep init.c ./make -rn
+  439  grep init.c ./make -rn | grep MS_Ref
+  440  git status
+  441  ls
+  442  git status
+  443  ls
+  444  vim UIX8910.modules 
+  445  git log
+  446  git status
+  447  git log 
+  448  git status
+  449  git diff MS_Customize/export/inc/gpio_prod_cfg.h
+  450  git checkout --  MS_Customize/export/inc/gpio_prod_cfg.h
+  451  git status
+  452  git diff MS_Customize/source/product/config/uis8910ff_refphone/gpio_cfg.c
+  453  git checkout --  MS_Customize/source/product/config/uis8910ff_refphone/gpio_cfg.c
+  454  git status
+  455  git stash
+  456  git fetch && git rebase origin/master 
+  457  git log 
+  458  ls
+  459  git status
+  460  git stash pop
+  461  git status
+  462  git branch
+  463  git diff MS_Customize/source/product/config/uis8910ff_refphone/pinmap_cfg.c
+  464  vim MS_Customize/source/product/config/uis8910ff_refphone/pinmap_cfg.c
+  465  ls
+  466  git status
+  467  vim UIX8910.modules
+  468  git status
+  469  git add MS_Customize/ UIX8910.modules 
+  470  git status
+  471  git stash pop
+  472  git status
+  473  vim UIX8910.modules 
+  474  git status
+  475  git add UIX8910.modules 
+  476  git status
+  477  git reset HEAD 
+  478  git status
+  479  history
+  480  git history
+  481  history >kkk.txt
