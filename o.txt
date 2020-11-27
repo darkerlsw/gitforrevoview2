@@ -26,7 +26,7 @@ https://blog.csdn.net/qq_41338249/article/details/103448917?utm_medium=distribut
 理解__declspec(dllexport)、__declspec(dllimport)、__attribute__((visibility("default")))
 http://www.voidcn.com/article/p-ntveshpl-bcv.html
 
-const char * 、 char const * 、 char * const 三者的区别
+分析const char * 、 char const * 、 char * const 三者的区别
 https://www.cnblogs.com/zhiminzeng/p/13060042.html
 
 linuxC
@@ -109,6 +109,7 @@ http://www.apuebook.com/
 unix高级环境编程编译错误 undefined reference to `err_sys error: ld returned 1 exit status
 https://blog.csdn.net/qq_44226094/article/details/105316771
 
+/***************************************************************************************************************************
 open函数中第三个参数,其中S_IRUSR|S_IWUSR是什么意思？
 
 S_IRUSR
@@ -122,6 +123,8 @@ S_IRGRP
 
 S_IWGRP
  Permits the file's group to write to it.允许文件的组对其进行写入。
+/***************************************************************************************************************************
+
 
 linux c——dup( )和dup2( )函数详解
 https://blog.csdn.net/tiandc/article/details/81489447
@@ -166,3 +169,26 @@ https://blog.csdn.net/wqlinf/article/details/8663170
 
 Android.mk 文件语法详解
 https://www.cnblogs.com/wainiwann/p/3837936.html
+
+展讯GPIO配置
+https://blog.csdn.net/xiaoguiduxi/article/details/88869446
+
+##__VA_ARGS__宏
+https://blog.csdn.net/qq_33160790/article/details/79288139
+
+/***************************************************************************************************************************
+O哦O:
+MiniSTM32F103开发板资料下载链接：http://www.openedv.com/thread-308948-1-1.html	
+
+O哦O:
+1）开发板资料下载总地址：
+http://openedv.com/thread-13912-1-1.html
+http://www.openedv.com/docs/index.html
+请关注上面帖子，以后有更新的资料我们都会发布在里面。
+ 每款开发板的资料都在帖子里。请下载对应开发板资料。
+您进这个链接下载即可哦。
+
+O哦O:
+ ART-Pi 开发手册：http://art-pi.gitee.io/website/docs/#/development/ART-Pi_%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C
+ 
+/***************************************************************************************************************************
