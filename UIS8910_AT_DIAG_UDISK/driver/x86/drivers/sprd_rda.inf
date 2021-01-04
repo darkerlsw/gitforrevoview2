@@ -1,0 +1,105 @@
+;/*++
+;
+;Copyright (c) Spreadtrum Communications Inc.  All rights reserved.
+;
+;Abstract:
+;    INF file for the WDF USB serial driver 
+;
+;--*/
+
+[version]
+signature   = "$CHICAGO$"
+Class       = Ports
+ClassGuid   = {4D36E978-E325-11CE-BFC1-08002BE10318}
+Provider    = %PROV%
+DriverVer   = 05/17/2018,2.0.0.133
+CatalogFile = sprd_rda.cat
+
+; ================= Device Install section =====================
+
+[ControlFlags]
+ExcludeFromSelect=*
+
+[Manufacturer]
+%PROV%=PROV,NTx86,NTAMD64
+
+[SourceDisksFiles]
+sprd_rdavcom.sys=1
+WdfCoInstaller01009.dll=1
+
+[SourceDisksNames]
+1=%DISK_NAME%,
+
+[DestinationDirs]
+DefaultDestDir  = 12
+CoInstaller_CopyFiles = 11
+
+; For Win2K
+[PROV]
+%USBCOMM_DL%= Serial_Inst, USB\VID_0525&PID_A4A7
+; For XP and later
+[PROV.NTx86]
+%USBCOMM_DL%= Serial_Inst, USB\VID_0525&PID_A4A7
+[PROV.NTAMD64]
+%USBCOMM_DL%= Serial_Inst, USB\VID_0525&PID_A4A7
+
+
+[Serial_Inst.NT]
+CopyFiles = Serial.CopyFiles
+AddReg = Serial_Inst.AddReg
+
+[Serial_Inst.AddReg]
+HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPropPageProvider"
+
+[Serial_Inst.NT.HW]
+AddReg = Models_HW_AddReg
+
+[Serial.CopyFiles]
+sprd_rdavcom.sys
+
+[Serial_Inst.NT.Services]
+AddService=sprd_rdavcom,0x00000002,Serial_Service 
+
+[Serial_Service]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\sprd_rdavcom.sys
+AddReg         = Serial_Parameters_AddReg
+
+[Models_HW_AddReg]
+HKR,,"VendorRequestTimeoutValue", %REG_DWORD%, 5
+HKR,,DeviceCharacteristics,0x10001,0x0100         ; Use same security checks on relative opens
+HKR,,Security,,"D:P(A;;GA;;;BA)(A;;GA;;;WD)"      ; Allow generic-all access to Built-in administrators and Local system 
+HKR,,"SpreadtrumVendorRequest",%REG_DWORD%,0
+HKR,,"CdcControlLineState",%REG_DWORD%,0
+HKR,,"UseContinuousRead",%REG_DWORD%,1
+HKR,,"RxFifoSize",%REG_DWORD%,128
+HKR,,"UsbEnableZLP",%REG_DWORD%,1
+
+[Serial_Parameters_AddReg]
+
+;-------------- WDF Coinstaller installation
+
+[Serial_Inst.NT.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+[CoInstaller_CopyFiles]
+WdfCoInstaller01009.dll
+
+[CoInstaller_AddReg]
+HKR,,CoInstallers32,0x00010000, "WdfCoInstaller01009.dll,WdfCoInstaller"
+
+[Serial_Inst.NT.Wdf]
+KmdfService = sprd_rdavcom, Serial_wdfsect
+
+[Serial_wdfsect]
+KmdfLibraryVersion = 1.9
+
+[Strings]
+PROV           = "Spreadtrum Communications Inc."
+USBCOMM_DL      = "SPRD U2S Diag"
+DISK_NAME       = "SPRD USB to Serial Install Disk"
+REG_EXPAND_SZ  = 0x00020000 
+REG_DWORD      = 0x00010001 

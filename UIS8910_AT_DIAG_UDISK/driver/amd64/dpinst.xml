@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<dpInst>
+
+    <legacyMode/>
+    <deleteBinaries/>
+    <forceIfDriverIsNotBetter/>
+	
+    <group>
+		<package path=".\drivers\sprd_wvcom.inf" />
+		<package path=".\drivers\sprd_wvmdm.inf" />
+		<package path=".\drivers\sprd_rda.inf" />
+    </group>
+
+</dpInst>
