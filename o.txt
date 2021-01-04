@@ -192,3 +192,7 @@ O哦O:
  ART-Pi 开发手册：http://art-pi.gitee.io/website/docs/#/development/ART-Pi_%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C
  
 /***************************************************************************************************************************
+
+
+8910ff平台初次编译不通过解决方法
+把E:\lsw_project\UIS8910ff\build\P107U_DEBUG_builddir\tmp\sprd_macro.tmp拷贝到E:\lsw_project\UIS8910ff\lib\UIS8910_240x320BAR_16MB_SS_DEBUG\sprd_macro.txt
