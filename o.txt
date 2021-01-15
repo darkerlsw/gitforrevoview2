@@ -196,3 +196,26 @@ O哦O:
 
 8910ff平台初次编译不通过解决方法
 把E:\lsw_project\UIS8910ff\build\P107U_DEBUG_builddir\tmp\sprd_macro.tmp拷贝到E:\lsw_project\UIS8910ff\lib\UIS8910_240x320BAR_16MB_SS_DEBUG\sprd_macro.txt
+
+
+VC6.0集成sp6安装
+https://blog.csdn.net/weixin_33758863/article/details/86404090?ops_request_misc=%25257B%252522request%25255Fid%252522%25253A%252522160981129916780273385425%252522%25252C%252522scm%252522%25253A%25252220140713.130102334..%252522%25257D&request_id=160981129916780273385425&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~baidu_landing_v2~default-1-86404090.first_rank_v2_rank_v29_unweighted&utm_term=VC6.0%20sp6%E5%AE%89%E8%A3%85
+https://blog.csdn.net/zgjxwl/article/details/5465849
+
+线程同步（互斥锁与信号量的作用与区别）
+https://www.cnblogs.com/alinh/p/6905221.html
+
+linux内核各头文件作用
+https://www.cnblogs.com/sherlockhomles/archive/2013/05/20/3089177.html
+
+fork()、vfork()、clone()的区别
+https://blog.csdn.net/gogokongyin/article/details/51178257
+
+fork()问题详解
+https://blog.csdn.net/gogokongyin/article/details/51179544
+
+抢占式和非抢占式内核
+https://blog.csdn.net/luckywang1103/article/details/78909079
+
+Linux内核态抢占机制分析
+http://blog.sina.com.cn/s/blog_502c8cc401012pxj.html
