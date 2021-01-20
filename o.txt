@@ -219,3 +219,6 @@ https://blog.csdn.net/luckywang1103/article/details/78909079
 
 Linux内核态抢占机制分析
 http://blog.sina.com.cn/s/blog_502c8cc401012pxj.html
+
+可重入函数与不可重入函数
+https://blog.csdn.net/u011123091/article/details/81748686
