@@ -222,3 +222,6 @@ http://blog.sina.com.cn/s/blog_502c8cc401012pxj.html
 
 可重入函数与不可重入函数
 https://blog.csdn.net/u011123091/article/details/81748686
+
+缓冲区原理
+https://blog.csdn.net/loginserve/article/details/37955917
